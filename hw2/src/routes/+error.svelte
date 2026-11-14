@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { page } from '$app/state';
+	import BackButton from './BackButton.svelte';
 </script>
 
-<h1>{page.status}: {page.error?.message}</h1>
-<h1>oop</h1>
+<BackButton/>

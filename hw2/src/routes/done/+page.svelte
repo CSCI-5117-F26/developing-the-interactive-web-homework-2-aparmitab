@@ -1,4 +1,4 @@
-<h1>Completed Items</h1>
+<h1 class="title">Completed Items</h1>
 
 <ul>
     {#each items as item}

@@ -13,4 +13,6 @@
 		>
 </svelte:head>
 
-{@render children()}
+<div class="container">
+	{@render children()}
+</div>

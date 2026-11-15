@@ -6,9 +6,11 @@
 
 <!-- Check complete component -->
 
-<form>
-    <textarea value={content}></textarea>
+<form method="post">
+    <textarea name="content" value={"content"}></textarea>
     <button type="submit">Save</button>
 </form>
+
+<button>Mark as completed</button>
 
 <BackButton/>
